@@ -1,0 +1,43 @@
+.Chat {
+    text-align: center;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+  }
+  
+  .image{
+    width: 150px;
+    height: 150px;
+  }
+  
+  .app__form{
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    width: 90%;
+    background-color: #e9e9eb;
+    margin: 0 auto !important;
+      left: 0;
+      right: 0;
+    margin: 20px !important;
+  }
+  
+  .app__formControl{
+    display: flex  !important;
+    flex-direction: row !important;
+  
+  }
+  
+  .app__input{
+    flex: 1 1;  
+  }
+  
+  .app__iconButton{
+    flex: 0 1 !important;
+  }
+  

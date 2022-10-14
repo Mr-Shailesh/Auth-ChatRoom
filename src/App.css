@@ -1,0 +1,36 @@
+body {
+    background-color: #fafafa;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+  }
+  
+  .box {
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+  }
+  
+  .g-btn {
+    width: 100% !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    font-size: 15px !important;
+  }
+  .g-btn > div,
+  .g-btn > div > svg {
+    width: 40px !important;
+    height: 38px !important;
+  }
+
+
+  .form--all{
+      display: flex !important;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+  }
